@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
     break;
 
     default:
-    res.end('1 day and counting til the orange idoit is gone!');
+    res.end('1 day and counting til the orange idoit is gone!');//serve up a  costomer error page
   }
 });
 
